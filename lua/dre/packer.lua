@@ -51,8 +51,15 @@ use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
 -- Comments
 use ('tpope/vim-commentary')
 
---
+-- NVIM tree
 use 'nvim-tree/nvim-tree.lua'
+
+-- Undo tree
+use ('mbbill/undotree')
+
+--Terminal
+use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+end}
 
 
 
